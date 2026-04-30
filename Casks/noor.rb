@@ -1,6 +1,6 @@
 cask "noor" do
   version "1.2.1"
-  sha256 "00fba62212833cc9f7cbf08cd48f9093cb2eda214259670b9b67c8279a41dd0a"
+  sha256 "1f1d998647c996ffe576b86c765d051a952274c4cbc6e3c2229d197849389944"
 
   url "https://github.com/yolkmonday/noor/releases/download/v#{version}/Noor-#{version}.zip"
   name "Noor"
