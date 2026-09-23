@@ -1,6 +1,6 @@
 cask "noor" do
-  version "1.2.2"
-  sha256 "c0152f48eddb119de6283b62241808b2d8722fad29a86ebb64e7b14c8f02aee9"
+  version "1.2.3"
+  sha256 "ee7c16b4833b6284293c98b985ef2bfff51bca83bbc4550b563ccaa20e3e5e71"
 
   url "https://github.com/yolkmonday/noor/releases/download/v#{version}/Noor-#{version}.zip"
   name "Noor"
@@ -9,6 +9,8 @@ cask "noor" do
 
   depends_on macos: ">= :sonoma"
   depends_on arch: :arm64
+
+  auto_updates true
 
   app "Noor.app"
 
