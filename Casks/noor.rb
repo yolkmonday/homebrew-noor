@@ -7,7 +7,7 @@ cask "noor" do
   desc "Aplikasi waktu solat untuk macOS"
   homepage "https://github.com/yolkmonday/noor"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
   depends_on arch: :arm64
 
   auto_updates true
